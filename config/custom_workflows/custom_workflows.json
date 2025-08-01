@@ -1,0 +1,9 @@
+[
+  {
+    "type": "custom_workflow",
+    "name": "soap-note-workflow",
+    "description": "A workflow for generating SOAP notes from audio recordings.",
+    "module_path": "example_custom_workflows.soap_note_workflow",
+    "class_name": "SoapNoteWorkflow"
+  }
+]

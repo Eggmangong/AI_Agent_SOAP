@@ -1,0 +1,9 @@
+SOAP Note:
+
+S (Subjective): The patient reports persistent headaches, occasional dizziness, and blurry vision.
+
+O (Objective): The patient's symptoms can be medically categorized as chronic headaches, episodic vertigo, and blurred vision.
+
+A (Assessment): Based on the symptoms, the possible conditions could be Migraine, Vertigo, Hypertension, Brain tumor, or Diabetes.
+
+P (Plan): The next step is to conduct further diagnostic tests to narrow down the possible conditions. This may include blood pressure monitoring, blood glucose tests, MRI scan, and neurological examinations. The patient is also advised to keep a symptom diary, noting the frequency and severity of headaches and episodes of dizziness and blurred vision.

@@ -1,0 +1,19 @@
+{
+  "Original Symptom Descriptions": [
+    "Persistent headaches",
+    "occasional dizziness",
+    "blurry vision"
+  ],
+  "Standardized Medical Terms": [
+    "Chronic headaches",
+    "Episodic vertigo",
+    "Blurred vision"
+  ],
+  "Possible Conditions": [
+    "Migraine",
+    "Vertigo",
+    "Hypertension",
+    "Brain tumor",
+    "Diabetes"
+  ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOAP Note</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .section-header {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .section-content {
+            color: #34495e;
+            padding-left: 10px;
+        }
+        .subjective { border-left-color: #e74c3c; }
+        .objective { border-left-color: #f39c12; }
+        .assessment { border-left-color: #27ae60; }
+        .plan { border-left-color: #9b59b6; }
+        .section-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        .subjective .section-icon { background-color: #e74c3c; }
+        .objective .section-icon { background-color: #f39c12; }
+        .assessment .section-icon { background-color: #27ae60; }
+        .plan .section-icon { background-color: #9b59b6; }
+        .timestamp {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 SOAP Note</h1>
+
+        <div class="section subjective">
+            <div class="section-header">
+                <div class="section-icon"></div>
+                Subjective
+            </div>
+            <div class="section-content">The patient reports persistent headaches, occasional dizziness, and blurry vision.</div>
+        </div>
+        <div class="section objective">
+            <div class="section-header">
+                <div class="section-icon"></div>
+                Objective
+            </div>
+            <div class="section-content">The patient's symptoms can be medically categorized as chronic headaches, episodic vertigo, and blurred vision.</div>
+        </div>
+        <div class="section assessment">
+            <div class="section-header">
+                <div class="section-icon"></div>
+                Assessment
+            </div>
+            <div class="section-content">Based on the symptoms, the possible conditions could be Migraine, Vertigo, Hypertension, Brain tumor, or Diabetes.</div>
+        </div>
+        <div class="section plan">
+            <div class="section-header">
+                <div class="section-icon"></div>
+                Plan
+            </div>
+            <div class="section-content">The next step is to conduct further diagnostic tests to narrow down the possible conditions. This may include blood pressure monitoring, blood glucose tests, MRI scan, and neurological examinations. The patient is also advised to keep a symptom diary, noting the frequency and severity of headaches and episodes of dizziness and blurred vision.</div>
+        </div>
+        <div class="timestamp">
+            Generated on 2025-08-01 12:39:51
+        </div>
+    </div>
+</body>
+</html>
